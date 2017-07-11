@@ -1,4 +1,4 @@
-getRepositories(6).done(function (data) {
+getRepositories(0).done(function (data) {
     $.each(data, function (index, object) {
         getTemplate('site').done(function (template) {
             var template = renderTemplate(template, {
@@ -13,7 +13,7 @@ getRepositories(6).done(function (data) {
 });
 
 // 6 is default, next is 12, so set that as default
-localStorage.setItem('load-sites', 12);
+localStorage.setItem('load-sites', 6);
 
 $('#load-more').on('click', function () {
     var button = $(this);
