@@ -68,5 +68,5 @@ function renderTemplate(template, data) {
 }
 
 function getRepositories(id) {
-    return $.getJSON('http://git.unpacker.org?load=' + id);
+    return $.getJSON('//git.unpacker.org?load=' + id);
 }
