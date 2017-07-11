@@ -1,0 +1,17 @@
+<div class="col-md-4 col-sm-6">
+    <a href="{{ url }}">
+        <div class="img-container">
+            <img src="{{ image }}" class="img-thumbnail img-hover">
+
+            <div class="img-overlay">
+                <div class="overlay-content">
+                    <div class="text">{{ title }}</div>
+
+                    <div class="text-2">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
